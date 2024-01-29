@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springSecurity
+    username: postgres
+    password: 3ea14367A4
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: 7CA6AFDA-B94C-4CCF-AC45-7C802BD0745F
